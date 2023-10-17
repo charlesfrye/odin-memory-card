@@ -1,6 +1,6 @@
-.card {
-    width: 10rem;
-    height: 10rem;
+.card>img {
+    width: 200px;
+    height: 200px;
     background-color: lightgrey;
     display: flex;
     justify-content: center;

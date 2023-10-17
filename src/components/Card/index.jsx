@@ -4,7 +4,7 @@ import "./Card.css";
 function Card({ onClick, content }) {
   return (
     <div onClick={onClick} className="card">
-      {content}
+      <img src={content}></img>
     </div>
   );
 }

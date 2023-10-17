@@ -1,7 +1,12 @@
 import PropTypes from "prop-types";
+import "./Card.css";
 
 function Card({ onClick, content }) {
-  return <div onClick={onClick}>{content}</div>;
+  return (
+    <div onClick={onClick} className="card">
+      {content}
+    </div>
+  );
 }
 
 Card.propTypes = {

@@ -1,11 +1,12 @@
 import Game from "./components/Game";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Memory Game</h1>
+    <div className="app">
+      <div className="title">Memory Game</div>
       <Game></Game>
-    </>
+    </div>
   );
 }
 

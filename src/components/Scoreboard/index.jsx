@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
+import "./Scoreboard.css";
 
 function Scoreboard({ value, maxValue }) {
   return (
     <div className="scoreboard">
-      <div>High Score: {maxValue}</div>
-      <div>Current Score: {value}</div>
+      <div className="score">High Score: {maxValue}</div>
+      <div className="score">Current Score: {value}</div>
     </div>
   );
 }
